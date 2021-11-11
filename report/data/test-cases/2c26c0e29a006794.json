@@ -1,0 +1,104 @@
+{
+  "uid" : "2c26c0e29a006794",
+  "name" : "test_two[3+5-9]",
+  "fullName" : "main.TestClass#test_two",
+  "historyId" : "4031f865d285bdc5693d249c12a960ff",
+  "time" : {
+    "start" : 1635252955817,
+    "stop" : 1635252955818,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 8 == 9\n  +8\n  -9",
+  "statusTrace" : "self = <main.TestClass object at 0x7f7a60e9dcd0>, a = '3+5', b = 9\n\n    @pytest.mark.parametrize(\"a, b\", [(\"3+5\", 9), (\"3*5\", 15)])\n    @pytest.mark.username\n    def test_two(self, a, b):\n>       assert eval(a) == b\nE       assert 8 == 9\nE         +8\nE         -9\n\nmain.py:16: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "username"
+  }, {
+    "name" : "suite",
+    "value" : "main"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass"
+  }, {
+    "name" : "host",
+    "value" : "hujiandeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "5502-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "'3+5'"
+  }, {
+    "name" : "b",
+    "value" : "9"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "50271bdffda00025",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 8 == 9\n  +8\n  -9",
+      "time" : {
+        "start" : 1635252874117,
+        "stop" : 1635252874117,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "644f8163ed35bbb4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 8 == 9\n  +8\n  -9",
+      "time" : {
+        "start" : 1635142461183,
+        "stop" : 1635142461184,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c4e4776f9449b9e8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 8 == 9\n  +8\n  -9",
+      "time" : {
+        "start" : 1635142124179,
+        "stop" : 1635142124179,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5f9e9816ee18cd",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 8 == 9\n  +8\n  -9",
+      "time" : {
+        "start" : 1635142076027,
+        "stop" : 1635142076027,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "username" ]
+  },
+  "source" : "2c26c0e29a006794.json",
+  "parameterValues" : [ "'3+5'", "9" ]
+}

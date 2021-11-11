@@ -1,0 +1,62 @@
+INFO-2021-11-08 21:29:20,099-__main__-Log.py-50行: start info
+DEBUG-2021-11-08 21:29:20,099-__main__-Log.py-46行: debug
+DEBUG-2021-11-08 21:29:20,099-__main__-Log.py-46行: debug
+WARNING-2021-11-08 21:29:20,099-__main__-Log.py-54行: warning
+WARNING-2021-11-08 21:29:20,099-__main__-Log.py-54行: warning
+WARNING-2021-11-08 21:29:20,099-__main__-Log.py-54行: warning
+ERROR-2021-11-08 21:29:20,100-__main__-Log.py-58行: error
+ERROR-2021-11-08 21:29:20,100-__main__-Log.py-58行: error
+ERROR-2021-11-08 21:29:20,100-__main__-Log.py-58行: error
+ERROR-2021-11-08 21:29:20,100-__main__-Log.py-58行: error
+ERROR-2021-11-08 21:29:20,100-__main__-Log.py-62行: exception
+NoneType: None
+ERROR-2021-11-08 21:29:20,100-__main__-Log.py-62行: exception
+NoneType: None
+ERROR-2021-11-08 21:29:20,100-__main__-Log.py-62行: exception
+NoneType: None
+ERROR-2021-11-08 21:29:20,100-__main__-Log.py-62行: exception
+NoneType: None
+ERROR-2021-11-08 21:29:20,100-__main__-Log.py-62行: exception
+NoneType: None
+CRITICAL-2021-11-08 21:29:20,101-__main__-Log.py-66行: critical
+CRITICAL-2021-11-08 21:29:20,101-__main__-Log.py-66行: critical
+CRITICAL-2021-11-08 21:29:20,101-__main__-Log.py-66行: critical
+CRITICAL-2021-11-08 21:29:20,101-__main__-Log.py-66行: critical
+CRITICAL-2021-11-08 21:29:20,101-__main__-Log.py-66行: critical
+CRITICAL-2021-11-08 21:29:20,101-__main__-Log.py-66行: critical
+INFO-2021-11-08 21:30:22,072-__main__-Log.py-50行: start info
+DEBUG-2021-11-08 21:30:22,072-__main__-Log.py-46行: debug
+DEBUG-2021-11-08 21:30:22,072-__main__-Log.py-46行: debug
+WARNING-2021-11-08 21:30:22,073-__main__-Log.py-54行: warning
+WARNING-2021-11-08 21:30:22,073-__main__-Log.py-54行: warning
+WARNING-2021-11-08 21:30:22,073-__main__-Log.py-54行: warning
+ERROR-2021-11-08 21:30:22,073-__main__-Log.py-58行: error
+ERROR-2021-11-08 21:30:22,073-__main__-Log.py-58行: error
+ERROR-2021-11-08 21:30:22,073-__main__-Log.py-58行: error
+ERROR-2021-11-08 21:30:22,073-__main__-Log.py-58行: error
+CRITICAL-2021-11-08 21:30:22,074-__main__-Log.py-66行: critical
+CRITICAL-2021-11-08 21:30:22,074-__main__-Log.py-66行: critical
+CRITICAL-2021-11-08 21:30:22,074-__main__-Log.py-66行: critical
+CRITICAL-2021-11-08 21:30:22,074-__main__-Log.py-66行: critical
+CRITICAL-2021-11-08 21:30:22,074-__main__-Log.py-66行: critical
+INFO-2021-11-08 21:31:14,575-__main__-Log.py-50行: start info
+DEBUG-2021-11-08 21:31:14,575-__main__-Log.py-46行: debug
+DEBUG-2021-11-08 21:31:14,575-__main__-Log.py-46行: debug
+WARNING-2021-11-08 21:31:14,577-__main__-Log.py-54行: warning
+WARNING-2021-11-08 21:31:14,577-__main__-Log.py-54行: warning
+WARNING-2021-11-08 21:31:14,577-__main__-Log.py-54行: warning
+ERROR-2021-11-08 21:31:14,577-__main__-Log.py-58行: error
+ERROR-2021-11-08 21:31:14,577-__main__-Log.py-58行: error
+ERROR-2021-11-08 21:31:14,577-__main__-Log.py-58行: error
+ERROR-2021-11-08 21:31:14,577-__main__-Log.py-58行: error
+CRITICAL-2021-11-08 21:31:14,578-__main__-Log.py-66行: critical
+CRITICAL-2021-11-08 21:31:14,578-__main__-Log.py-66行: critical
+CRITICAL-2021-11-08 21:31:14,578-__main__-Log.py-66行: critical
+CRITICAL-2021-11-08 21:31:14,578-__main__-Log.py-66行: critical
+CRITICAL-2021-11-08 21:31:14,578-__main__-Log.py-66行: critical
+WARNING-2021-11-08 21:31:39,713-__main__-Log.py-54行: warning
+INFO-2021-11-08 21:31:55,262-__main__-Log.py-50行: start info
+CRITICAL-2021-11-08 21:32:24,255-__main__-Log.py-66行: critical
+CRITICAL 2021-11-08 21:33:33,120 __main__ Log.py-66行: critical
+CRITICAL 2021-11-08 21:34:06,702 __main__ Log.py第66行: critical
+CRITICAL 2021-11-08 21:34:25,680 __main__ Log.py-第66行: critical

@@ -1,0 +1,54 @@
+{
+  "uid" : "3f35b83c7f8e6a8b",
+  "name" : "test_three",
+  "fullName" : "main.TestClass#test_three",
+  "historyId" : "379993d56d0346f717e8f50805619614",
+  "time" : {
+    "start" : 1635142076070,
+    "stop" : 1635142076070,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "password"
+  }, {
+    "name" : "suite",
+    "value" : "main"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass"
+  }, {
+    "name" : "host",
+    "value" : "hujiandeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "3224-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "password" ]
+  },
+  "source" : "3f35b83c7f8e6a8b.json",
+  "parameterValues" : [ ]
+}

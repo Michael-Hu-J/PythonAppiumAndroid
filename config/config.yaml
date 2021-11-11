@@ -1,0 +1,10 @@
+- desired_caps_shopkeeper:
+    platformName: Android
+    platformVersion: '6.0.1'
+    deviceName: '127.0.0.1:5555'
+    appPackage: zmsoft.rest.phone
+    appActivity: phone.rest.zmsoft.base.common.activity.AppSplash
+    automationName: UiAutomator2
+    unicodeKeyboard: True  #使用自带输入法
+    resetKeyboard": True  # 执行完恢复原来输入法
+    noReset: True

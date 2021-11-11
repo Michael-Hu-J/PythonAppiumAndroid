@@ -1,0 +1,8 @@
+INFO 2021-11-09 17:10:08,946 Baseic.Log Log.py-第54行: 开始等待元素：(//android.widget.EditText[@resource-id='zmsoft.rest.phone:id/etMobile'])可见
+INFO 2021-11-09 17:10:15,631 Baseic.Log Log.py-第54行: 等待元素：(//android.widget.EditText[@resource-id='zmsoft.rest.phone:id/etMobile'])可见成功！
+INFO 2021-11-09 17:10:15,631 Baseic.Log Log.py-第54行: 等待元素：(//android.widget.EditText[@resource-id='zmsoft.rest.phone:id/etMobile'])可见成功！
+INFO 2021-11-09 17:11:29,210 Baseic.Log Log.py-第54行: 开始等待元素：(//android.widget.EditText[@resource-id='zmsoft.rest.phone:id/etMobile'])可见
+ERROR 2021-11-09 17:11:36,294 Baseic.Log Log.py-第62行: 等待元素：(//android.widget.EditText[@resource-id='zmsoft.rest.phone:id/etMobile'])可见成功！
+ERROR 2021-11-09 17:11:36,294 Baseic.Log Log.py-第62行: 等待元素：(//android.widget.EditText[@resource-id='zmsoft.rest.phone:id/etMobile'])可见成功！
+INFO 2021-11-09 20:55:14,470 Baseic.Log Log.py-第54行: 开始等待元素：(//android.widget.EditText[@resource-id='zmsoft.rest.phone:id/etMobile'])可见
+INFO 2021-11-09 20:59:48,075 Baseic.Log Log.py-第54行: 正在等待元素：(//android.widget.EditText[@resource-id='zmsoft.rest.phone:id/etMobile'])可见
