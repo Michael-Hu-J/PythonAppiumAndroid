@@ -17,8 +17,9 @@ class MyLog:
         self.__name = name
         self.__path = path
         self.__level = level
-        self.__logger = logging.getLogger(self.__name)
-        self.__logger.setLevel(self.__level)
+        self.__logger = logging.getLogger(self.__name)  # 初始化logger
+        self.__logger.setLevel(self.__level)  # 设置基础log等级为debug，debug优先级最低
+        self.__logger.handlers.clear()  # 清理已存在的handlers，避免日志重复打印
 
     # 初始化一个filehandler
     def __init_handler(self):
