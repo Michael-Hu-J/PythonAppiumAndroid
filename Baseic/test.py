@@ -30,8 +30,10 @@ class Login(Base):
         # password.send_keys("qa1234")
         # self.driver.find_element_by_xpath("//android.widget.Button[@resource-id='zmsoft.rest.phone:id/btnLogin']").click()
         # self.send_text(element_locate="//android.widget.EditText[@resource-id='zmsoft.rest.phone:id/etMobile']", text="17771432624", page_description="输入账号")
-        text = self.get_text(element_locate="//android.widget.Button[@resource-id='zmsoft.rest.phone:id/btnLogin']", page_description="获取登录文本")
+        text = self.get_attribute(element_locate="//android.widget.EditText[@resource-id='zmsoft.rest.phone:id/etMobile']", attribute_name="resource-id")
         print(text)
+        self.get_screenshot(page_description="获取元素属性")
+
 
 
 if __name__ == '__main__':
