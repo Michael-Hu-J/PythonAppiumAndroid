@@ -1,0 +1,2 @@
+INFO 2021-11-19 17:13:34,936 Baseic.Log Log.py-第55行: 正在滑动屏幕查找元素：(//android.widget.TextView[@text='商圈分析'])
+INFO 2021-11-19 17:14:30,352 Baseic.Log Log.py-第55行: 已成功找到元素：(//android.widget.TextView[@text='商圈分析'])

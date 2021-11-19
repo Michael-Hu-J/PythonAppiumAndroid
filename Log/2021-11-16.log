@@ -1,0 +1,42 @@
+INFO 2021-11-16 16:33:58,826 Baseic.Log Log.py-第55行: 正在等待元素：(//android.widget.EditText[@resource-id='zmsoft.rest.phone:id/etMobile'])可见
+INFO 2021-11-16 16:34:05,611 Baseic.Log Log.py-第55行: 已成功获取"resource-id"元素属性
+INFO 2021-11-16 16:34:50,638 Baseic.Log Log.py-第55行: 正在等待元素：(//android.widget.EditText[@resource-id='zmsoft.rest.phone:id/etMobile'])可见
+ERROR 2021-11-16 16:34:57,645 Baseic.Log Log.py-第67行: 获取"elementId"元素失败：Message: 'elementId' attribute is unknown for the element. Only the following attributes are supported: [checkable, checked, {class,className}, clickable, {content-desc,contentDescription}, enabled, focusable, focused, {long-clickable,longClickable}, package, password, {resource-id,resourceId}, scrollable, selection-start, selection-end, selected, {text,name}, bounds, displayed, contentSize]
+Traceback (most recent call last):
+  File "/Users/hujian/PycharmProjects/PythonAppiumAndroid/Baseic/base.py", line 86, in get_attribute
+    att = ele.get_attribute(attribute_name)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/appium/webdriver/webelement.py", line 55, in get_attribute
+    resp = self._execute(RemoteCommand.GET_ELEMENT_ATTRIBUTE, {'name': name})
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/appium/webdriver/errorhandler.py", line 31, in check_response
+    raise wde
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/appium/webdriver/errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: 'elementId' attribute is unknown for the element. Only the following attributes are supported: [checkable, checked, {class,className}, clickable, {content-desc,contentDescription}, enabled, focusable, focused, {long-clickable,longClickable}, package, password, {resource-id,resourceId}, scrollable, selection-start, selection-end, selected, {text,name}, bounds, displayed, contentSize]
+
+INFO 2021-11-16 19:45:26,697 Baseic.Log Log.py-第55行: 正在等待元素：(//android.widget.EditText[@resource-id='zmsoft.rest.phone:id/etMobile'])可见
+ERROR 2021-11-16 19:45:34,284 Baseic.Log Log.py-第67行: 获取"elementId"元素失败：Message: 'elementId' attribute is unknown for the element. Only the following attributes are supported: [checkable, checked, {class,className}, clickable, {content-desc,contentDescription}, enabled, focusable, focused, {long-clickable,longClickable}, package, password, {resource-id,resourceId}, scrollable, selection-start, selection-end, selected, {text,name}, bounds, displayed, contentSize]
+Traceback (most recent call last):
+  File "/Users/hujian/PycharmProjects/PythonAppiumAndroid/Baseic/base.py", line 89, in get_attribute
+    att = ele.get_attribute(attribute_name)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/appium/webdriver/webelement.py", line 55, in get_attribute
+    resp = self._execute(RemoteCommand.GET_ELEMENT_ATTRIBUTE, {'name': name})
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/appium/webdriver/errorhandler.py", line 31, in check_response
+    raise wde
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/appium/webdriver/errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: 'elementId' attribute is unknown for the element. Only the following attributes are supported: [checkable, checked, {class,className}, clickable, {content-desc,contentDescription}, enabled, focusable, focused, {long-clickable,longClickable}, package, password, {resource-id,resourceId}, scrollable, selection-start, selection-end, selected, {text,name}, bounds, displayed, contentSize]
+
+INFO 2021-11-16 19:47:03,816 Baseic.Log Log.py-第55行: 正在等待元素：(//android.widget.EditText[@resource-id='zmsoft.rest.phone:id/etMobile'])可见
+INFO 2021-11-16 19:47:10,704 Baseic.Log Log.py-第55行: 已成功获取"resource-id"元素属性

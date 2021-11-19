@@ -1,0 +1,162 @@
+INFO 2021-11-18 10:55:46,720 Baseic.Log Log.py-第55行: 正在等待元素：(//android.widget.EditText[@resource-id='zmsoft.rest.phone:id/etMobile'])可见
+INFO 2021-11-18 10:55:54,286 Baseic.Log Log.py-第55行: 已成功获取"resource-id"元素属性
+INFO 2021-11-18 10:55:55,368 Baseic.Log Log.py-第55行: 错误截图保存在：/Users/hujian/PycharmProjects/PythonAppiumAndroid/screenshots/获取元素属性_2021-11-18.png
+INFO 2021-11-18 11:05:38,796 Baseic.Log Log.py-第55行: 正在等待元素：(//android.widget.EditText[@resource-id='zmsoft.rest.phone:id/etMobile'])可见
+INFO 2021-11-18 11:05:45,884 Baseic.Log Log.py-第55行: 已成功获取"resource-id"元素属性
+INFO 2021-11-18 11:05:46,757 Baseic.Log Log.py-第55行: 错误截图保存在：/Users/hujian/PycharmProjects/PythonAppiumAndroid/screenshots/获取元素属性_2021-11-18.png
+INFO 2021-11-18 15:21:55,783 Baseic.Log Log.py-第55行: 正在None：(//android.widget.Button[@resource-id='zmsoft.rest.phone:id/btnLogin'])
+INFO 2021-11-18 15:23:27,008 Baseic.Log Log.py-第55行: 正在None：(//android.widget.Button[@resource-id='zmsoft.rest.phone:id/btnLogin'])
+INFO 2021-11-18 15:30:27,950 Baseic.Log Log.py-第55行: 正在None：(//android.widget.EditText[@resource-id='zmsoft.rest.phone:id/etMobile'])
+INFO 2021-11-18 15:30:35,899 Baseic.Log Log.py-第55行: 正在None：(//android.widget.EditText[@resource-id='zmsoft.rest.phone:id/etPassword'])
+INFO 2021-11-18 15:30:36,464 Baseic.Log Log.py-第55行: 正在None：(//android.widget.Button[@resource-id='zmsoft.rest.phone:id/btnLogin'])
+INFO 2021-11-18 17:35:06,136 Baseic.Log Log.py-第55行: 正在None：(//android.widget.TextView[@text='营销软件商城'])
+INFO 2021-11-18 17:36:43,957 Baseic.Log Log.py-第55行: 正在None：(//android.widget.TextView[@text='营销软件商城'])
+ERROR 2021-11-18 17:36:52,347 Baseic.Log Log.py-第67行: None失败：Message: An element could not be located on the page using the given search parameters.
+Traceback (most recent call last):
+  File "/Users/hujian/PycharmProjects/PythonAppiumAndroid/Baseic/base.py", line 49, in find_element_xpath
+    ele = self.driver.find_element_by_xpath(element_locate)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/appium/webdriver/webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/appium/webdriver/errorhandler.py", line 31, in check_response
+    raise wde
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/appium/webdriver/errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+INFO 2021-11-18 17:36:53,368 Baseic.Log Log.py-第55行: 错误截图保存在：/Users/hujian/PycharmProjects/PythonAppiumAndroid/screenshots/None_2021-11-18.png
+INFO 2021-11-18 17:37:21,531 Baseic.Log Log.py-第55行: 正在None：(//android.widget.TextView[@text='营销软件商城'])
+ERROR 2021-11-18 17:37:29,842 Baseic.Log Log.py-第67行: None失败：Message: An element could not be located on the page using the given search parameters.
+Traceback (most recent call last):
+  File "/Users/hujian/PycharmProjects/PythonAppiumAndroid/Baseic/base.py", line 49, in find_element_xpath
+    ele = self.driver.find_element_by_xpath(element_locate)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/appium/webdriver/webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/appium/webdriver/errorhandler.py", line 31, in check_response
+    raise wde
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/appium/webdriver/errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+INFO 2021-11-18 17:37:31,122 Baseic.Log Log.py-第55行: 错误截图保存在：/Users/hujian/PycharmProjects/PythonAppiumAndroid/screenshots/None_2021-11-18.png
+INFO 2021-11-18 19:30:17,240 Baseic.Log Log.py-第55行: 正在None：(//android.widget.ImageView[@resource-id='zmsoft.rest.phone:id/iv_avatar'])
+INFO 2021-11-18 21:12:40,506 Baseic.Log Log.py-第55行: 正在None：(//android.widget.EditText[@resource-id='zmsoft.rest.phone:id/etMobile'])
+ERROR 2021-11-18 21:12:41,168 Baseic.Log Log.py-第67行: None失败：Message: An element could not be located on the page using the given search parameters.
+Traceback (most recent call last):
+  File "/Users/hujian/PycharmProjects/PythonAppiumAndroid/Baseic/base.py", line 49, in find_element_xpath
+    ele = self.driver.find_element_by_xpath(element_locate)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/appium/webdriver/webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/appium/webdriver/errorhandler.py", line 31, in check_response
+    raise wde
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/appium/webdriver/errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+INFO 2021-11-18 21:12:41,570 Baseic.Log Log.py-第55行: 错误截图保存在：/Users/hujian/PycharmProjects/PythonAppiumAndroid/screenshots/None_2021-11-18.png
+INFO 2021-11-18 21:13:44,714 Baseic.Log Log.py-第55行: 正在None：(//android.widget.EditText[@resource-id='zmsoft.rest.phone:id/etMobile'])
+ERROR 2021-11-18 21:13:45,090 Baseic.Log Log.py-第67行: None失败：Message: An element could not be located on the page using the given search parameters.
+Traceback (most recent call last):
+  File "/Users/hujian/PycharmProjects/PythonAppiumAndroid/Baseic/base.py", line 49, in find_element_xpath
+    ele = self.driver.find_element_by_xpath(element_locate)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/appium/webdriver/webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/appium/webdriver/errorhandler.py", line 31, in check_response
+    raise wde
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/appium/webdriver/errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+INFO 2021-11-18 21:13:46,356 Baseic.Log Log.py-第55行: 错误截图保存在：/Users/hujian/PycharmProjects/PythonAppiumAndroid/screenshots/None_2021-11-18.png
+INFO 2021-11-18 21:15:10,705 Baseic.Log Log.py-第55行: 正在None：(//android.widget.EditText[@resource-id='zmsoft.rest.phone:id/etMobile'])
+ERROR 2021-11-18 21:15:11,250 Baseic.Log Log.py-第67行: None失败：Message: An element could not be located on the page using the given search parameters.
+Traceback (most recent call last):
+  File "/Users/hujian/PycharmProjects/PythonAppiumAndroid/Baseic/base.py", line 49, in find_element_xpath
+    ele = self.driver.find_element_by_xpath(element_locate)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/appium/webdriver/webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/appium/webdriver/errorhandler.py", line 31, in check_response
+    raise wde
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/appium/webdriver/errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+INFO 2021-11-18 21:15:11,669 Baseic.Log Log.py-第55行: 错误截图保存在：/Users/hujian/PycharmProjects/PythonAppiumAndroid/screenshots/None_2021-11-18.png
+INFO 2021-11-18 21:15:56,959 Baseic.Log Log.py-第55行: 正在None：(//android.widget.EditText[@resource-id='zmsoft.rest.phone:id/etMobile'])
+INFO 2021-11-18 21:16:04,318 Baseic.Log Log.py-第55行: 正在None：(//android.widget.EditText[@resource-id='zmsoft.rest.phone:id/etPassword'])
+INFO 2021-11-18 21:16:04,911 Baseic.Log Log.py-第55行: 正在None：(//android.widget.Button[@resource-id='zmsoft.rest.phone:id/btnLogin'])
+INFO 2021-11-18 21:24:33,946 Baseic.Log Log.py-第55行: 正在None：(//android.widget.EditText[@resource-id='zmsoft.rest.phone:id/etMobile'])
+INFO 2021-11-18 21:24:41,509 Baseic.Log Log.py-第55行: 正在None：(//android.widget.EditText[@resource-id='zmsoft.rest.phone:id/etPassword'])
+INFO 2021-11-18 21:24:42,030 Baseic.Log Log.py-第55行: 正在None：(//android.widget.Button[@resource-id='zmsoft.rest.phone:id/btnLogin'])
+INFO 2021-11-18 21:25:13,168 Baseic.Log Log.py-第55行: 正在None：(//android.widget.EditText[@resource-id='zmsoft.rest.phone:id/etMobile'])
+ERROR 2021-11-18 21:25:13,832 Baseic.Log Log.py-第67行: None失败：Message: An element could not be located on the page using the given search parameters.
+Traceback (most recent call last):
+  File "/Users/hujian/PycharmProjects/PythonAppiumAndroid/Baseic/base.py", line 49, in find_element_xpath
+    ele = self.driver.find_element_by_xpath(element_locate)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/appium/webdriver/webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/appium/webdriver/errorhandler.py", line 31, in check_response
+    raise wde
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/appium/webdriver/errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+INFO 2021-11-18 21:25:14,669 Baseic.Log Log.py-第55行: 错误截图保存在：/Users/hujian/PycharmProjects/PythonAppiumAndroid/screenshots/None_2021-11-18.png
+INFO 2021-11-18 21:29:43,568 Baseic.Log Log.py-第55行: 正在None：(//android.widget.EditText[@resource-id='zmsoft.rest.phone:id/etMobile'])
+ERROR 2021-11-18 21:29:44,031 Baseic.Log Log.py-第67行: None失败：Message: An element could not be located on the page using the given search parameters.
+Traceback (most recent call last):
+  File "/Users/hujian/PycharmProjects/PythonAppiumAndroid/Baseic/base.py", line 49, in find_element_xpath
+    ele = self.driver.find_element_by_xpath(element_locate)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/appium/webdriver/webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/appium/webdriver/errorhandler.py", line 31, in check_response
+    raise wde
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/appium/webdriver/errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+INFO 2021-11-18 21:29:44,452 Baseic.Log Log.py-第55行: 错误截图保存在：/Users/hujian/PycharmProjects/PythonAppiumAndroid/screenshots/None_2021-11-18.png
+INFO 2021-11-18 21:30:13,652 Baseic.Log Log.py-第55行: 正在None：(//android.widget.EditText[@resource-id='zmsoft.rest.phone:id/etMobile'])
+INFO 2021-11-18 21:30:14,401 Baseic.Log Log.py-第55行: 正在None：(//android.widget.EditText[@resource-id='zmsoft.rest.phone:id/etPassword'])
+INFO 2021-11-18 21:30:14,939 Baseic.Log Log.py-第55行: 正在None：(//android.widget.Button[@resource-id='zmsoft.rest.phone:id/btnLogin'])

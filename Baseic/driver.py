@@ -16,5 +16,5 @@ def shopkeeper_driver():
     desired_caps = shopkeeper(yaml_path)
     driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", desired_capabilities=desired_caps)
     # driver.launch_app()
-    driver.implicitly_wait(8)
+    # driver.implicitly_wait(8)
     return driver
