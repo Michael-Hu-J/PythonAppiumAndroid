@@ -48,6 +48,7 @@ class Login(Base):
         # text = self.swipe_find_element(element_locate="//android.widget.TextView[@text='每月账单']").text
         # print(text)
         # self.driver.find_element_by_android_uiautomator('new UiSelector().text("营销软件商城")').click()
+        self.find_element_accessibility_id()
 
 if __name__ == '__main__':
     os.system("adb connect 127.0.0.1:5555")

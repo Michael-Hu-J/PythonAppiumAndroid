@@ -22,7 +22,7 @@ class Base:
 
     # 定义元素显示wait
     def wait_element_explicit(self, element_locate, page_description=None, wait_time=5):
-        MyLog.info("正在{}：({})可见".format(page_description, element_locate))
+        MyLog.info("正在{}：({})".format(page_description, element_locate))
         try:
             wait_element = WebDriverWait(self.driver, wait_time).until(
                 EC.visibility_of_element_located((By.XPATH, element_locate)))
@@ -64,14 +64,45 @@ class Base:
             self.get_screenshot(page_description=page_description)
             raise
 
-    # Accessibility ID：查找元素  对于android是元素content-desc属性
+    # Accessibility ID：查找元素
     def find_element_accessibility_id(self, content_desc, page_description=None):
+        """对于android是元素content-desc属性"""
         MyLog.info("【AccessibilityID】正在{}：(content_desc:'{}')".format(page_description, content_desc))
         try:
             ele = self.driver.find_element_by_accessibility_id(content_desc)
             return ele
         except Exception as err:
             MyLog.exception("【AccessibilityID】{}失败：{}".format(page_description, err))
+            self.get_screenshot(page_description=page_description)
+            raise
+
+    # Class Name：查找元素
+    def find_element_class_name(self, class_name, page_description=None):
+        """
+        对于 IOS，它是 XCUI 元素的全名，并以 XCUIElementType 开头。
+        对于Android，它是UIAutomator2类的全名（例如：android.widget.TextView）
+        """
+        MyLog.info("【ClassName】正在{}：(class_name:'{}')".format(page_description, class_name))
+        try:
+            ele = self.driver.find_element_by_class_name(class_name)
+            return ele
+        except Exception as err:
+            MyLog.exception("【ClassName】{}失败：{}".format(page_description, err))
+            self.get_screenshot(page_description=page_description)
+            raise
+
+    # ID：查找元素
+    def find_element_id(self, resource_id, page_description=None):
+        """
+        对于Android，是resource-id
+        对于IOS，是name
+        """
+        MyLog.info("【ID】正在{}：(id:'{}')".format(page_description, resource_id))
+        try:
+            ele = self.driver.find_element_by_id(resource_id)
+            return ele
+        except Exception as err:
+            MyLog.exception("【ID】{}失败：{}".format(page_description, err))
             self.get_screenshot(page_description=page_description)
             raise
 
