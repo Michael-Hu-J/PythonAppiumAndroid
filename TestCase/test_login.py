@@ -8,4 +8,5 @@ from Page.page_login import Login
 @pytest.mark.usefixtures("init_driver")
 class TestLogin:
     def test_login(self, init_driver):
-        Login(init_driver).correct_login()
+        warning = Login(init_driver).err_username()
+        assert warning is True
