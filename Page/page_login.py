@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 
 import time
-from Baseic.base import Base
+from Basic.base import Base
 
 
 class Login(Base):

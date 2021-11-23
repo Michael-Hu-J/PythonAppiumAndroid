@@ -7,8 +7,8 @@
 
 import json
 from appium import webdriver
-from Baseic.Path import yaml_path
-from Baseic.access_yaml import shopkeeper
+from Basic.Path import yaml_path
+from Basic.yaml_data import shopkeeper
 
 
 # 初始化driver

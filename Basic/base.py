@@ -3,11 +3,11 @@
 
 import os.path
 import time
-from Baseic.Path import base_dir
+from Basic.Path import base_dir
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-from Baseic.Log import MyLog
+from Basic.Log import MyLog
 
 
 class Base:

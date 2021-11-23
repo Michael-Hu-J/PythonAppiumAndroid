@@ -9,7 +9,7 @@
 import logging
 import time
 import os.path
-from Baseic.Path import log_path
+from Basic.Path import log_path
 
 
 class MyLog:

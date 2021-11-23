@@ -5,8 +5,8 @@ import pytest
 from Page.page_login import Login
 
 
-@pytest.mark.usefixtures("init_driver")
+@pytest.mark.usefixtures("driver")
 class TestLogin:
-    def test_login(self, init_driver):
-        warning = Login(init_driver).err_username()
+    def test_login(self, driver):
+        warning = Login(driver).err_username()
         assert warning is True
