@@ -119,6 +119,17 @@ class Base:
             self.get_screenshot(page_description=page_description)
             raise
 
+    # 点击元素
+    def click_element(self, element_locate, page_description=None):
+        ele = self.wait_element_explicit(element_locate=element_locate, page_description="等待元素")
+        MyLog.info("正在{}：{}".format(page_description, element_locate))
+        try:
+            ele.click()
+        except Exception as err:
+            MyLog.exception("{}失败：{}".format(page_description, err))
+            self.get_screenshot(page_description=page_description)
+            raise
+
     # 获取元素文本
     def get_text(self, element_locate, page_description=None):
         ele = self.wait_element_explicit(element_locate=element_locate, page_description="等待元素")
