@@ -46,6 +46,7 @@ class Base:
     def find_element_xpath(self, element_locate, page_description=None):
         MyLog.info("【XPATH】正在{}：({})".format(page_description, element_locate))
         try:
+            self.driver.implicitly_wait(5)
             ele = self.driver.find_element_by_xpath(element_locate)
             return ele
         except Exception as err:
@@ -57,6 +58,7 @@ class Base:
     def find_elements_xpath(self, element_locate, page_description=None):
         MyLog.info("【XPATH】正在{}：({})".format(page_description, element_locate))
         try:
+            self.driver.implicitly_wait(5)
             eles = self.driver.find_elements_by_xpath(element_locate)
             return eles
         except Exception as err:
@@ -69,6 +71,7 @@ class Base:
         """对于android是元素content-desc属性"""
         MyLog.info("【AccessibilityID】正在{}：(content_desc:'{}')".format(page_description, content_desc))
         try:
+            self.driver.implicitly_wait(5)
             ele = self.driver.find_element_by_accessibility_id(content_desc)
             return ele
         except Exception as err:
@@ -84,6 +87,7 @@ class Base:
         """
         MyLog.info("【ClassName】正在{}：(class_name:'{}')".format(page_description, class_name))
         try:
+            self.driver.implicitly_wait(5)
             ele = self.driver.find_element_by_class_name(class_name)
             return ele
         except Exception as err:
@@ -99,10 +103,23 @@ class Base:
         """
         MyLog.info("【ID】正在{}：(id:'{}')".format(page_description, resource_id))
         try:
+            self.driver.implicitly_wait(5)
             ele = self.driver.find_element_by_id(resource_id)
             return ele
         except Exception as err:
             MyLog.exception("【ID】{}失败：{}".format(page_description, err))
+            self.get_screenshot(page_description=page_description)
+            raise
+
+    # Android UiAutomator：查找元素
+    def find_element_android_uiautomator(self, ui_selector, page_description=None):
+        MyLog.info("【Android UiAutomator】正在{}：({})".format(page_description, ui_selector))
+        try:
+            self.driver.implicitly_wait(5)
+            ele = self.driver.find_element_by_android_uiautomator(ui_selector)
+            return ele
+        except Exception as err:
+            MyLog.exception("【Android UiAutomator】{}失败：{}".format(page_description, err))
             self.get_screenshot(page_description=page_description)
             raise
 

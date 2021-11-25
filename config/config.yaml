@@ -5,6 +5,6 @@
     appPackage: 'zmsoft.rest.phone'
     appActivity: 'phone.rest.zmsoft.base.common.activity.AppSplash'
     automationName: 'UiAutomator2'
-    unicodeKeyboard: true  # 使用自带输入法
-    resetKeyboard": true  # 执行完恢复原来输入法
+    unicodeKeyboard: true
+    resetKeyboard: true
     noReset: true

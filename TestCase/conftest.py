@@ -5,6 +5,6 @@ from Basic.driver import shopkeeper_driver
 @pytest.fixture(scope="class", name="driver")
 def init_driver():
     driver = shopkeeper_driver()
-    yield driver
-    driver.close_app()
+    return driver
+    # driver.close_app()
 
