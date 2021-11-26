@@ -6,6 +6,7 @@ from Page.page_login import Login
 
 
 @pytest.mark.usefixtures("driver")
+@pytest.mark.usefixtures("launch_app")
 class TestLogin:
     def test_correct_login(self, driver):
         avatar = Login(driver).correct_login()

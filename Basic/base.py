@@ -21,7 +21,7 @@ class Base:
     """
 
     # 定义元素显示wait
-    def wait_element_explicit(self, element_locate, page_description=None, wait_time=5):
+    def wait_element_explicit(self, element_locate, page_description=None, wait_time=10):
         MyLog.info("正在{}：({})".format(page_description, element_locate))
         try:
             wait_element = WebDriverWait(self.driver, wait_time).until(
@@ -176,6 +176,20 @@ class Base:
         self.driver.get_screenshot_as_file(screenshot_path)
         MyLog.info("错误截图保存在：{}".format(screenshot_path))
 
+    # 滑动屏幕
+    def swipe(self, start_x, start_y, end_x, end_y, duration=0):
+        """
+        :param start_x: 开始滑动x坐标，例如0.5
+        :param start_y: 开始滑动y坐标
+        :param end_x: 结束时x坐标
+        :param end_y: 结束时y坐标
+        :param duration: 滑动持续时间，单位毫秒
+        """
+        width = self.driver.get_window_size()["width"]
+        height = self.driver.get_window_size()["height"]
+        MyLog.info("正在滑动屏幕")
+        self.driver.swipe(width * start_x, height * start_y, width * end_x, height * end_y, duration=duration)
+
     """
     封装滑动屏幕查找元素
     """
@@ -192,11 +206,11 @@ class Base:
 
     def swipe_up(self):
         """向上滑动"""
-        self.driver.swipe(self.width * 0.5, self.height * 0.8, self.width * 0.5, self.height * 0.2, duration=500)
+        self.driver.swipe(self.width * 0.5, self.height * 0.8, self.width * 0.5, self.height * 0.2, duration=1000)
 
     def swipe_down(self):
         """向下滑动"""
-        self.driver.swipe(self.width * 0.5, self.height * 0.2, self.width * 0.5, self.height * 0.8, duration=500)
+        self.driver.swipe(self.width * 0.5, self.height * 0.2, self.width * 0.5, self.height * 0.8, duration=1000)
 
     def swipe_find_element(self, element_locate):
         is_find = False
