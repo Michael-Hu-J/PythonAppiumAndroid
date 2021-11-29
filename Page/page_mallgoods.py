@@ -57,5 +57,26 @@ class MallGoods(Base):
             page_description="编辑商品名称").send_keys("自动化测试商品")
         self.click_element(element_locate="//android.widget.TextView[@text='保存']", page_description="点击保存商品")
 
+    def delete_goods(self):
+        self.swipe_find_element(element_locate="//android.widget.TextView[@text='商品管理']").click()
+        self.click_element(element_locate="//android.widget.TextView[@text='商品信息']", page_description="点击商品信息")
+        self.click_element(element_locate="//android.widget.TextView[@text='自动化测试商品']", page_description="点击商品")
 
+        # 判断是否滑动到底部，删除按钮在底部
+        before_swipe = "before"
+        after_swipe = "after"
+        while before_swipe != after_swipe:
+            """判断是否滑动到屏幕底部"""
+            before_swipe = self.driver.page_source
+            self.swipe_up()
+            after_swipe = self.driver.page_source
 
+        self.click_element(element_locate="//android.widget.TextView[@text='删除']", page_description="点击删除商品")
+        self.click_element(element_locate="//android.widget.Button[@text='确定']", page_description="点击确定删除商品")
+        self.click_element(
+            element_locate="//android.widget.LinearLayout[@resource-id='zmsoft.rest.phone:id/layout_left']",
+            page_description="点击返回到商品管理页")
+        self.click_element(element_locate="//android.widget.TextView[@text='分类管理']", page_description="点击分类管理")
+        self.click_element(element_locate="//android.widget.TextView[@text='自动化测试分类']", page_description="点击商品分类")
+        self.click_element(element_locate="//android.widget.TextView[@text='删除']", page_description="点击删除商品分类")
+        self.click_element(element_locate="//android.widget.Button[@text='确定']", page_description="点击确定删除商品分类")

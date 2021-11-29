@@ -10,3 +10,6 @@ from Page.page_mallgoods import MallGoods
 class TestMallGoods:
     def test_add_goods(self, driver):
         MallGoods(driver).add_goods()
+
+    def test_delete_goods(self, driver):
+        MallGoods(driver).delete_goods()
