@@ -38,7 +38,7 @@ class MyLog:
     # 关闭handler
     def __close_handler(self, handler):
         handler.close()
-
+ 
     def Logger(self):
         handler = self.__init_handler()
         self.__set_formatter(handler)
