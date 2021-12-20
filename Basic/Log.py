@@ -26,7 +26,7 @@ class MyLog:
         handler = logging.FileHandler(self.__path)
         return handler
 
-    # 设置日志格式
+    # 设置filehandler的日志格式
     def __set_formatter(self, handler):
         formatter = logging.Formatter(fmt="%(levelname)s %(asctime)s %(name)s %(filename)s-第%(lineno)d行: %(message)s")
         handler.setFormatter(formatter)
