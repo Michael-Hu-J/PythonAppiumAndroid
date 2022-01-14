@@ -14,12 +14,6 @@ class Base:
     def __init__(self, driver):
         self.driver = driver
 
-    """
-   :param element_locate: 元素的xpath定位
-   :param page_description: 行为描述
-   :param attribute_name：属性名
-    """
-
     # 定义元素显示wait
     def wait_element_explicit(self, element_locate, page_description=None, wait_time=10):
         MyLog.info("正在{}：({})".format(page_description, element_locate))
